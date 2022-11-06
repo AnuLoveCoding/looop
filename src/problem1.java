@@ -38,22 +38,31 @@ public class problem1 {
 //            else System.out.println("It is not prime number");
 
 //        Q.4 find the prime number 1 to n;
-
-        for (int i = 1; i <= n ; i++) {
-            int count =0;
-            for (int j = 1; j <= i ; j++) {
-                if(i%j==0){
-                    count++;
-                }
-                if(count>2){
-                    break;
-                }
-            }
-
-            if(count==2){
-                System.out.println("This is prime number "+i);
+//        for (int i = 1; i <= n ; i++) {
+//            int count =0;
+//            for (int j = 1; j <= i ; j++) {
+//                if(i%j==0){
+//                    count++;
+//                }
+//                if(count>2){
+//                    break;
+//                }
+//            }
+//
+//            if(count==2){
+//                System.out.println("This is prime number "+i);
 //                System.out.println(i);
-            }
+//            }
+//        }
+
+//        Q.4 print fibonacci Number;
+           int a =0;
+           int b =1;
+        for (int i = 0; i <n ; i++) {
+            System.out.println(a);
+            int c = a+b;
+            a=b;
+            b=c;
         }
 
 
