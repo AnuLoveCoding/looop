@@ -56,15 +56,19 @@ public class problem1 {
 //        }
 
 //        Q.4 print fibonacci Number;
-           int a =0;
-           int b =1;
-        for (int i = 0; i <n ; i++) {
-            System.out.println(a);
-            int c = a+b;
-            a=b;
-            b=c;
+//           int a =0;
+//           int b =1;
+//           for (int i = 0; i <n ; i++) {
+//            System.out.println(a);
+//            int c = a+b;
+//            a=b;
+//            b=c;
+//        }
+        int sum =0;
+        for(int i=1;i<=5;i++){
+            sum+=i;
         }
-
+        System.out.println(sum);
 
 
 
