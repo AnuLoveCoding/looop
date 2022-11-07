@@ -8,7 +8,7 @@ public class problem2 {
 
         int count =0;
 
-        for (; n>0 ; n/=10) {
+        for ( int  i=0; n>i ; n/=10) {
              int rem = n%10;
             count++;
 
