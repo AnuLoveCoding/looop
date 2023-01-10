@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class problem3 {
-    public static String freq_count(char [] arr){
+    public static StringBuilder freq_count(char [] arr){
         int [] count = new int[arr.length];
-        String store = "";
+        StringBuilder store = new StringBuilder();
         for (int i = 0; i < arr.length ; i++) {
             int freq = 0;
             char unique = arr[i];
@@ -15,11 +15,11 @@ public class problem3 {
             count[i] = freq;
 
             if(count[i]==1){
-                store += unique;
+                store.append(unique);
             }
         }
 
-        return store += "not found";
+        return store.append("not found");
     }
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
