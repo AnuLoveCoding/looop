@@ -13,12 +13,10 @@ public class problem3 {
                 }
             }
             count[i] = freq;
-
-            if(count[i]==1){
+            if(count[i] == 1){
                 store.append(unique);
             }
         }
-
         return store.append("not found");
     }
     public static void main(String[] args) {
