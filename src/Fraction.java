@@ -24,6 +24,7 @@ public class Fraction {
         return new Fraction(0,0);
     }
 
+
    Fraction multiply(Fraction a) {
        int i = (this.numerator * a.denominator + a.numerator * this.denominator) / this.denominator * a.denominator;
        return new Fraction(0, 0);
